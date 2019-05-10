@@ -31,17 +31,34 @@ namespace Test1_SingleProjectSolution.Objects
 					Age = value;
 			}
 		}
+		public Person(DateTime birth_date, Height height, string name = null)
+		{
+			Name = name;
+			BirthDate = birth_date;
+			Height = height;
+		}
+		public Person(string name, DateTime birth_date)
+		{
+			Name = name;
+			BirthDate = birth_date;
+			Height = new Height(0, 0);
+		}
 		
 	}
 
 	class Height
 	{
-		private int Feet;
-		private int Inches;
+		private readonly int Feet;
+		private readonly int Inches;
 		public string this[string key]
 		{
 			get => $"{Feet}'{Inches}\"";
 			set { GetType().GetProperty(key).SetValue(this, value); }
+		}
+		public Height(int feet = 0, int inches = 0)
+		{
+			Feet = feet;
+			Inches = inches;
 		}
 
 	}
