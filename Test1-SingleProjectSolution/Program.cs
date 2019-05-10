@@ -14,5 +14,9 @@ namespace Test1_SingleProjectSolution
 				Console.WriteLine($"{Bob[i].Name}: {Bob[i].GetValue(Bob).ToString()}");
 			}
 		}
+		public void DoATing()
+		{
+			//this doesnt actually do actually thing
+		}
 	}
 }
