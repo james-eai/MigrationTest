@@ -1,4 +1,5 @@
 ﻿using System;
+using Test1_SingleProjectSolution.Objects;
 using c = System.Linq.Enumerable;
 
 namespace Test1_SingleProjectSolution
@@ -7,11 +8,11 @@ namespace Test1_SingleProjectSolution
 	{
 		static void Main(string[] args)
 		{
-			foreach(var i in c.Range(0,5))
+			var Bob = new Person(new DateTime(1990, 5, 5), new Height(5,10), "Bob");
+			foreach(var i in c.Range(0,Bob.PropCount))
 			{
-				Console.Write($"{i}");
+				Console.WriteLine($"{Bob[i].Name}: {Bob[i].GetValue(Bob).ToString()}");
 			}
-			Console.WriteLine("\nHello World!");
 		}
 	}
 }
