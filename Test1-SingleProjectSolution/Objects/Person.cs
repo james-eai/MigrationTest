@@ -11,24 +11,21 @@ namespace Test1_SingleProjectSolution.Objects
 		public Height Height { get; set; }
 		public DateTime BirthDate
 		{
-			get => BirthDate;
-			set { BirthDate = value; Age = DateTime.Now.Year - value.Year; }
+			get; set;
 		}
 		public int Age
 		{
 			get
 			{
-				if (BirthDate == null)
-					throw new Exception("Cannot derrive age without birth date");
-				else
-					return Age;
-			}
-			private set
-			{
-				if (BirthDate == null)
-					throw new Exception("Cannot derrive age without birth date");
-				else
-					Age = value;
+				try
+				{
+					return DateTime.Now.Year - BirthDate.Year;
+				}
+				catch (NullReferenceException)
+				{
+
+					throw new NullReferenceException("Cannot get age without birth date");
+				}
 			}
 		}
 		public Person(DateTime birth_date, Height height, string name = null)
@@ -37,28 +34,25 @@ namespace Test1_SingleProjectSolution.Objects
 			BirthDate = birth_date;
 			Height = height;
 		}
-		public Person(string name, DateTime birth_date)
-		{
-			Name = name;
-			BirthDate = birth_date;
-			Height = new Height(0, 0);
-		}
-		
 	}
 
 	class Height
 	{
 		private readonly int Feet;
 		private readonly int Inches;
-		public string this[string key]
+		public object this[string key]
 		{
-			get => $"{Feet}'{Inches}\"";
+			get => GetType().GetProperty(key).GetValue(this); 
 			set { GetType().GetProperty(key).SetValue(this, value); }
 		}
 		public Height(int feet = 0, int inches = 0)
 		{
 			Feet = feet;
 			Inches = inches;
+		}
+		public override string ToString()
+		{
+			return $"{Feet}\'{Inches}\"";
 		}
 
 	}
