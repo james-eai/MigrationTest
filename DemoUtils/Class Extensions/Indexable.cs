@@ -2,12 +2,16 @@
 
 namespace DemoUtils
 {
-	public abstract class Indexable
+	public abstract class Indexable : object
 	{
 		public int KeyID { get; set; }
-		public object this[int index]
+		public int PropCount
 		{
-			get => GetType().GetProperties()[index].GetValue(this);
+			get => GetType().GetProperties().Length - 3;
+		}
+		public PropertyInfo this[int index]
+		{
+			get => GetType().GetProperties()[index];
 			set => GetType().GetProperties()[index].SetValue(this, value);
 		}
 	}
