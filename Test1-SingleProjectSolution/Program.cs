@@ -13,10 +13,15 @@ namespace Test1_SingleProjectSolution
 			{
 				Console.WriteLine($"{Bob[i].Name}: {Bob[i].GetValue(Bob).ToString()}");
 			}
+			Console.WriteLine(getString());
 		}
 		public void DoATing()
 		{
 			//this doesnt actually do actually thing
+		}
+		public static string getString()
+		{
+			return "here is a string";
 		}
 	}
 }
