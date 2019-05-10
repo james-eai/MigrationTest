@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test1-SingleProjectSolution", "Test1-SingleProjectSolution\Test1-SingleProjectSolution.csproj", "{8B512334-99BB-443E-8B57-A7DF6FE9A52F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoUtils", "DemoUtils\DemoUtils.csproj", "{3D98FF37-5BD8-4798-BBBE-61557D5BE59A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8B512334-99BB-443E-8B57-A7DF6FE9A52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B512334-99BB-443E-8B57-A7DF6FE9A52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B512334-99BB-443E-8B57-A7DF6FE9A52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D98FF37-5BD8-4798-BBBE-61557D5BE59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D98FF37-5BD8-4798-BBBE-61557D5BE59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D98FF37-5BD8-4798-BBBE-61557D5BE59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D98FF37-5BD8-4798-BBBE-61557D5BE59A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -23,12 +29,15 @@ Global
 		SolutionGuid = {15DD45C5-BDE4-46D3-A3C6-CB52D132797E}
 	EndGlobalSection
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
+		SccNumberOfProjects = 3
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://eai.visualstudio.com/
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = Test1-SingleProjectSolution\\Test1-SingleProjectSolution.csproj
 		SccProjectName1 = Test1-SingleProjectSolution
 		SccLocalPath1 = Test1-SingleProjectSolution
+		SccProjectUniqueName2 = DemoUtils\\DemoUtils.csproj
+		SccProjectName2 = DemoUtils
+		SccLocalPath2 = DemoUtils
 	EndGlobalSection
 EndGlobal

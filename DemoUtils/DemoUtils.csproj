@@ -8,13 +8,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>Test1_SingleProjectSolution</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\DemoUtils\DemoUtils.csproj" />
-  </ItemGroup>
 
 </Project>
