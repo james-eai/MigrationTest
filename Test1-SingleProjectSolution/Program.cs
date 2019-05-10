@@ -23,5 +23,9 @@ namespace Test1_SingleProjectSolution
 		{
 			return "here is a string";
 		}
+		public static int getInt()
+		{
+			return 0;
+		}
 	}
 }
