@@ -1,0 +1,9 @@
+C:\Users\James Anderson\source\repos\Test2-GitClonedTf\MigrationTest\DemoUtils\bin\Release\netcoreapp3.0\DemoUtils.deps.json
+C:\Users\James Anderson\source\repos\Test2-GitClonedTf\MigrationTest\DemoUtils\bin\Release\netcoreapp3.0\DemoUtils.dll
+C:\Users\James Anderson\source\repos\Test2-GitClonedTf\MigrationTest\DemoUtils\bin\Release\netcoreapp3.0\DemoUtils.pdb
+C:\Users\James Anderson\source\repos\Test2-GitClonedTf\MigrationTest\DemoUtils\obj\Release\netcoreapp3.0\DemoUtils.csprojAssemblyReference.cache
+C:\Users\James Anderson\source\repos\Test2-GitClonedTf\MigrationTest\DemoUtils\obj\Release\netcoreapp3.0\DemoUtils.csproj.CoreCompileInputs.cache
+C:\Users\James Anderson\source\repos\Test2-GitClonedTf\MigrationTest\DemoUtils\obj\Release\netcoreapp3.0\DemoUtils.AssemblyInfoInputs.cache
+C:\Users\James Anderson\source\repos\Test2-GitClonedTf\MigrationTest\DemoUtils\obj\Release\netcoreapp3.0\DemoUtils.AssemblyInfo.cs
+C:\Users\James Anderson\source\repos\Test2-GitClonedTf\MigrationTest\DemoUtils\obj\Release\netcoreapp3.0\DemoUtils.dll
+C:\Users\James Anderson\source\repos\Test2-GitClonedTf\MigrationTest\DemoUtils\obj\Release\netcoreapp3.0\DemoUtils.pdb
