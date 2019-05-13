@@ -5,4 +5,4 @@
 /.vs/Test1-SingleProjectSolution/v16/Server/sqlite3
 /Test1-SingleProjectSolution/obj
 /DemoUtils/obj
-*.suo
+/.vs/Test1-SingleProjectSolution/v16/.suo
