@@ -30,5 +30,7 @@ namespace Test1_SingleProjectSolution
 		}
 		//Pretend htis change was substantial
 		//making more changes
+
+		//Begin adding new features
 	}
 }
