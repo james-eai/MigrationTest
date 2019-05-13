@@ -1,10 +1,11 @@
-﻿using System;
+﻿using DemoUtils;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Test1_SingleProjectSolution.Objects
 {
-	class Creature
+	class Creature : Indexable
 	{
 		public int NumberOfLegs { get; set; }
 		public int NumberOfEyes { get; set; }
