@@ -628,4 +628,8 @@ MigrationBackup/
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 
 # End of https://www.gitignore.io/api/csharp,aspnetcore,visualstudio
-Test1-SingleProjectSolution/obj/Release/netcoreapp3\.0/
+DemoUtils/obj/Debug/netcoreapp3\.0/DemoUtils\.csprojAssemblyReference\.cache
+
+Test1-SingleProjectSolution/obj/Debug/netcoreapp3\.0/Test1-SingleProjectSolution\.csprojAssemblyReference\.cache
+
+Test1-SingleProjectSolution/obj/Release/netcoreapp3\.0/Test1-SingleProjectSolution\.csprojAssemblyReference\.cache

@@ -9,7 +9,7 @@ namespace Test1_SingleProjectSolution.Objects
 	{
 		public string Name { get; set; }
 		public Height Height { get; set; }
-		private new string Designation
+		public new string Designation
 		{
 			get { return Name; }
 		}
