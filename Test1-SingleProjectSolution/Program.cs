@@ -16,9 +16,9 @@ namespace Test1_SingleProjectSolution
 			//Console.WriteLine(getString());  THis was a problematic line of code
 			Console.WriteLine($"Designation: {Bob.Designation}");
 		}
-		public void DoATing()
+		public void DoAThing()
 		{
-			//this doesnt actually do actually thing
+			//stylechange
 		}
 		public static string getString()
 		{
