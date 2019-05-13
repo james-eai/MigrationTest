@@ -13,7 +13,7 @@ namespace Test1_SingleProjectSolution
 			{
 				Console.WriteLine($"{Bob[i].Name}: {Bob[i].GetValue(Bob).ToString()}");
 			}
-			Console.WriteLine(getString());
+			//Console.WriteLine(getString());  THis was a problematic line of code
 			Console.WriteLine($"Designation: {Bob.Designation}");
 		}
 		public void DoATing()
