@@ -2,7 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/Test1-SingleProjectSolution/v16/Server/sqlite3
-/Test1-SingleProjectSolution/obj
-/DemoUtils/obj
-*.suo
+/.vs/
+/Test1-SingleProjectSolution/bin/Debug/
+/DemoUtils/bin/Debug/
