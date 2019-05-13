@@ -32,5 +32,6 @@ namespace Test1_SingleProjectSolution
 		//making more changes
 
 		//Begin adding new features
+		//We are adding more features still
 	}
 }
